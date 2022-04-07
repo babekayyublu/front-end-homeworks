@@ -1,3 +1,6 @@
+.body {
+  background: #e5e5e5;
+}
 .logo {
   position: absolute;
   top: 59px;
@@ -205,21 +208,77 @@ ul li a:hover {
   left: 107px;
   top: 886.88px;
 }
-.footer-ul-1 {
-  list-style: none;
+.footer {
+  padding: 50px;
+  position: relative;
+  top: 1000px;
+}
+
+.footer .footer_menu {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto 25px;
+  justify-content: space-between;
+}
+
+.footer .footer_menu .title-1 {
   position: absolute;
-  width: 134px;
-  height: 72px;
-  left: 100px;
-  top: 4732px;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 120%;
-  /* or 31px */
-
-  letter-spacing: 1px;
-
+  left: 90px;
+  margin-bottom: 10px;
   color: #3b4c68;
+  font-family: "Lato";
+  font-weight: 700;
+}
+.footer .footer_menu .title-2 {
+  position: absolute;
+  left: 400px;
+  margin-bottom: 10px;
+  color: #3b4c68;
+  font-family: "Lato";
+  font-weight: 700;
+}
+.footer .footer_menu .title-3 {
+  position: absolute;
+  left: 710px;
+  margin-bottom: 10px;
+  color: #3b4c68;
+  font-family: "Lato";
+  font-weight: 700;
+}
+.footer .footer_menu .title-4 {
+  position: absolute;
+  left: 1010px;
+  margin-bottom: 10px;
+  color: #3b4c68;
+  font-family: "Lato";
+  font-weight: 700;
+}
+.footer .footer_menu .title-1-1 {
+  display: block;
+  position: absolute;
+  right: 290px;
+  margin-bottom: 6px;
+  padding-top: 39px;
+  padding-bottom: 20px;
+  color: #3b4c68;
+  font-family: "Lato";
+  font-weight: 400;
+  width: 100px;
+}
+.footer .footer_menu .title-2-1 {
+  display: block;
+  position: absolute;
+  right: 300px;
+  margin-bottom: 6px;
+  padding-top: 39px;
+  padding-bottom: 20px;
+  color: #3b4c68;
+  font-family: "Lato";
+  font-weight: 400;
+  width: 100px;
+}
+
+.footer .footer_menu ul li a:hover {
+  text-decoration: underline;
 }
